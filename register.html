@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        
+		<title>Palihog</title>
+	</head>
+	<body>
+        <a href="index.html">Home</a>
+		<a href="newpage.html">New Page</a>
+		<h1>Register</h1>
+
+        <form method="POST"> <!--action="action.php"--->
+            First Name:<input type="text" name="firstname"required><br>
+            Last Name:<input type="text" name="lastname" required><br>
+            E-mail: <input type="email" name="email" required><br>
+            Password: <input type="passsword" name="password" regquired><br>
+            Birthday: <input type="date" name="birthday" srequired><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender"  value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+            Pet: <br>
+            <input type="checkbox" name="cat" value="cat">Cat<br>
+            <input type="checkbox" name="dog" value="dog">Dog<br>
+            <input type="checkbox" name="other" value="other">Other<br>
+            Cars: <br>
+            <select name="car">
+                <option value="volvo">Volvo</option>
+                <option value="audi">Audi</option>
+                <option value="toyota">Toyota<option>
+            </select>
+            <br>
+            <input type="submit" value="Register">
+            <input type="reset">
+        </form>
+		
+	</body>
+</html>
